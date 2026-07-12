@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Next.js 15",
+    "slug": "getting-started-with-nextjs-15",
+    "category": "Web Development",
+    "author": "Mahamudul Hasan Mehedi",
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "excerpt": "Learn the fundamentals of Next.js 15, including App Router, Server Components, and modern best practices.",
+    "content": "Next.js has become one of the most popular React frameworks for building modern web applications. With version 15, developers gain improved performance, better routing, and enhanced developer experience. This guide covers project setup, routing, layouts, data fetching, and deployment.",
+    "tags": ["Next.js", "React", "JavaScript"],
+    "readTime": "6 min",
+    "publishedDate": "2026-07-02"
+  },
+  {
+    "id": 2,
+    "title": "Building AI Applications with FastAPI",
+    "slug": "building-ai-applications-with-fastapi",
+    "category": "Artificial Intelligence",
+    "author": "Mahamudul Hasan Mehedi",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    "excerpt": "Discover how FastAPI simplifies the development of scalable AI-powered APIs.",
+    "content": "FastAPI provides automatic API documentation, type validation, and exceptional performance. It is widely used for deploying machine learning models and LLM applications. In this article, you'll learn how to build REST APIs, integrate AI models, and deploy them efficiently.",
+    "tags": ["FastAPI", "Python", "AI"],
+    "readTime": "8 min",
+    "publishedDate": "2026-06-28"
+  },
+  {
+    "id": 3,
+    "title": "Mastering Tailwind CSS for Modern UI Design",
+    "slug": "mastering-tailwind-css",
+    "category": "Frontend",
+    "author": "Mahamudul Hasan Mehedi",
+    "thumbnail": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
+    "excerpt": "Create responsive and beautiful user interfaces quickly using Tailwind CSS.",
+    "content": "Tailwind CSS is a utility-first framework that enables developers to build custom designs without writing traditional CSS. This guide explores responsive layouts, dark mode, reusable components, and productivity tips.",
+    "tags": ["Tailwind CSS", "CSS", "Frontend"],
+    "readTime": "5 min",
+    "publishedDate": "2026-06-20"
+  },
+  {
+    "id": 4,
+    "title": "Understanding Retrieval-Augmented Generation (RAG)",
+    "slug": "understanding-rag",
+    "category": "Artificial Intelligence",
+    "author": "Mahamudul Hasan Mehedi",
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+    "excerpt": "Learn how Retrieval-Augmented Generation improves the accuracy of Large Language Models.",
+    "content": "RAG combines external knowledge retrieval with large language models to produce more accurate and context-aware responses. This article explains embeddings, vector databases, retrieval pipelines, and practical implementation strategies.",
+    "tags": ["LLM", "RAG", "AI"],
+    "readTime": "9 min",
+    "publishedDate": "2026-06-15"
+  },
+  {
+    "id": 5,
+    "title": "Top GitHub Tips Every Developer Should Know",
+    "slug": "github-tips-for-developers",
+    "category": "Developer Tools",
+    "author": "Mahamudul Hasan Mehedi",
+    "thumbnail": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "excerpt": "Boost your productivity with GitHub Actions, Pull Requests, and advanced Git workflows.",
+    "content": "GitHub is more than just a code hosting platform. Learn how to use GitHub Actions for CI/CD, create meaningful pull requests, manage branches effectively, and maintain clean repositories for collaboration.",
+    "tags": ["Git", "GitHub", "CI/CD"],
+    "readTime": "7 min",
+    "publishedDate": "2026-06-10"
+  },
+  {
+    "id": 6,
+    "title": "MongoDB Best Practices for MERN Developers",
+    "slug": "mongodb-best-practices",
+    "category": "Backend",
+    "author": "Mahamudul Hasan Mehedi",
+    "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+    "excerpt": "Optimize your MongoDB database with proper schema design, indexing, and aggregation.",
+    "content": "Efficient database design is essential for scalable MERN applications. This guide covers document modeling, indexing strategies, aggregation pipelines, performance optimization, and common mistakes to avoid.",
+    "tags": ["MongoDB", "MERN", "Database"],
+    "readTime": "8 min",
+    "publishedDate": "2026-06-05"
+  }
+]

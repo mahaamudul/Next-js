@@ -6,7 +6,10 @@ const page = () => {
     return (
         <div className="h-screen">
 
-            <Link href="/about/history">History</Link>
+            <div className="flex justify-center items-center gap-4 pt-10 ">
+                <Link   href="/about/history">History</Link>
+                
+            </div>
             
             <About></About>
         </div>
