@@ -23,6 +23,10 @@ const NavBar = () => {
             name: 'Contact',
             link: '/contact'
         },
+        {
+            name: 'Categories',
+            link: '/categories'
+        }
 
     ];  
 
@@ -30,16 +34,7 @@ const NavBar = () => {
         router.push('/login');
     }
 
-    if (pathName === "/dashboard") {
-  return (
-    <nav className="sticky top-0 z-50 shadow-2xl bg-blue-800 backdrop-blur-md">
-      <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        Dashboard
-      </div>
-    </nav>
-  );
-}
-    else {
+    
          return (
        
         <nav className="sticky top-0 z-50 shadow-2xl bg-blue-800 backdrop-blur-md">
@@ -78,6 +73,6 @@ const NavBar = () => {
 }
 
    
-};
+
 
 export default NavBar;

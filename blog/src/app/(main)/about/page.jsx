@@ -1,4 +1,4 @@
-import About from '../../pages/About/About';
+import About from '.././../../pages/About/About';
 import Link from 'next/link';
 import React from 'react';
 
