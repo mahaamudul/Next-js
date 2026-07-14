@@ -12,9 +12,12 @@ import { NextResponse } from "next/server"
 // }
 
 const user=true;
+const cokieName='admin'
 
 export const middleware=(request)=>{
-    if(!user){
+    const cokie=request.cookies.get('token')
+
+    if(!user || !cokie || cokie.value !== cokieName){
         return NextResponse.redirect(new URL('/login',request.url))
     }
     return NextResponse.next()
