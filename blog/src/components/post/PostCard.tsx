@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Post } from "../../types/posts";
 
 type PostCardProps = {
@@ -12,6 +13,9 @@ export default function PostCard({ post }: PostCardProps) {
       </h2>
 
       <p>{post.body}</p>
+      <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300">
+        <Link href={`/posts/${post.id}`}>View Details</Link>
+      </button>
     </div>
   );
 }
